@@ -1,0 +1,62 @@
+.geralHome{
+    display: flex;
+}
+
+
+.conteudoHome{
+    display: flex;
+    width: 87%;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url('../../img/senai.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-size: 90vw 100vh /* largura de 200 pixels, altura de 100 pixels */
+
+}
+
+.tituloHome{
+    width: 87vw;
+    display: flex;
+}
+
+.tituloHome{
+    font-family: 'Jomhuria';
+    font-size: 22vw;
+    color: white;
+    -webkit-text-stroke-width: 5px; 
+    -webkit-text-stroke-color: #781B1B; 
+    letter-spacing: 10px;
+  }
+
+  
+  .imagemComTitulo {
+    position: relative;
+    display: inline-block;
+    margin-right: 2vw;
+  }
+  
+  .tituloSobreImagem {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.5vw;
+    font-weight: bold;
+    z-index: 1;
+  }
+  
+.imgSenai{
+    width: 60vw;
+    height: 67vh;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.5);
+      
+}
+
+.manchaHome{
+    height: 72vh;
+}
